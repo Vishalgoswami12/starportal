@@ -1,25 +1,23 @@
 import React from 'react'
-
 import { Helmet } from 'react-helmet'
-
-import Navbar8 from '../components/navbar8'
-import Hero17 from '../components/hero17'
-import Features24 from '../components/features24'
-import CTA26 from '../components/cta26'
-import Features25 from '../components/features25'
-import Pricing14 from '../components/pricing14'
 import Steps2 from '../components/steps2'
 import Testimonial17 from '../components/testimonial17'
 import Contact10 from '../components/contact10'
 import Footer4 from '../components/footer4'
 import './home.css'
+import Navbar8 from '../componenets/navbar8'
+import Hero17 from '../componenets/hero17'
+import Features24 from '../componenets/features24'
+import Pricing14 from '../componenets/pricing14'
+import Features25 from '../componenets/features25'
+import CTA26 from '../componenets/cta26'
 
 const Home = (props) => {
   return (
     <div className="home-container">
       <Helmet>
-        <title>Previous Accomplished Ferret</title>
-        <meta property="og:title" content="Previous Accomplished Ferret" />
+        <title>Beneficial Bumpy Narwhal</title>
+        <meta property="og:title" content="Beneficial Bumpy Narwhal" />
       </Helmet>
       <Navbar8></Navbar8>
       <Hero17></Hero17>
