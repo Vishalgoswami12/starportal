@@ -2,7 +2,7 @@ import React from 'react'
 
 import PropTypes from 'prop-types'
 
-import './testimonial17.css'
+import './testimonials17.css'
 
 const Testimonial17 = (props) => {
   return (

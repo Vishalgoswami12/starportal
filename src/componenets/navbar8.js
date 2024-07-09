@@ -10,11 +10,7 @@ const Navbar8 = (props) => {
   return (
     <header className="navbar8-container">
       <header data-thq="thq-navbar" className="navbar8-navbar-interactive">
-        <img
-          alt={props.logoAlt}
-          src={props.logoSrc}
-          className="navbar8-image1"
-        />
+        <img src={require("../Assets/imglogo.jpg")} alt="logo" width="5%" />
         <div data-thq="thq-navbar-nav" className="navbar8-desktop-menu">
           <nav className="navbar8-links">
             <span className="thq-link thq-body-small">{props.link1}</span>

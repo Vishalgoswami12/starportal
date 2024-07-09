@@ -1,9 +1,5 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
-import Steps2 from '../components/steps2'
-import Testimonial17 from '../components/testimonial17'
-import Contact10 from '../components/contact10'
-import Footer4 from '../components/footer4'
 import './home.css'
 import Navbar8 from '../componenets/navbar8'
 import Hero17 from '../componenets/hero17'
@@ -11,7 +7,10 @@ import Features24 from '../componenets/features24'
 import Pricing14 from '../componenets/pricing14'
 import Features25 from '../componenets/features25'
 import CTA26 from '../componenets/cta26'
-
+import Steps2 from '../componenets/steps2'
+import Testimonial17 from '../componenets/testimonial17'
+import Footer4 from '../componenets/footer4'
+import Contact10 from '../componenets/contact10'
 const Home = (props) => {
   return (
     <div className="home-container">
