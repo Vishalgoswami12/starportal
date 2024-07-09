@@ -9,7 +9,7 @@ import {
 
 import './style.css'
 import Home from './views/Home'
-import NotFound from '../src/views/not-Found'
+import NotFound from './views/NotFound'
 
 const App = () => {
   return (
